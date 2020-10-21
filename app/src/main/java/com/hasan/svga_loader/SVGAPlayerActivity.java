@@ -65,7 +65,7 @@ public class SVGAPlayerActivity extends AppCompatActivity {
 
     private void playGiftAnimation() {
         try {
-            mSVGAParse.parse(new URL("https://apprise.website/hive-api/public/images/svga/" + data + ".svga"), new SVGAParser.ParseCompletion() {
+            mSVGAParse.parse(new URL("https://github.com/mhasancse15/SVGA_Loader/blob/master/app/src/main/assets/"+ data +".svga?raw=true" ), new SVGAParser.ParseCompletion() {
                 @Override
                 public void onComplete(SVGAVideoEntity mSVGAVideoEntity) {
                     mGiftAnimSIV.setVisibility(View.VISIBLE);
